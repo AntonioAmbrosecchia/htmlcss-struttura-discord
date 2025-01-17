@@ -6,35 +6,59 @@ body {
 
 
 header {
-    background-color: aqua;
     display: flex;
     height: 45px;
     justify-content: center;
     align-items: center;
 }
 
+.utility {
+    header {
+        background-color: aqua;
+    }
 
-#container_1 {
+    #nav {
+        background-color: rgb(229, 255, 0);
+
+    }
+
+
+
+
+    .container {
+        display: flex;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container~#download {
+        background-color: blue;
+    }
+}
+
+#download {
+    background-color: pink;
+
+}
+
+#cn_friends {
+    background-color: bisque;
+}
+
+
+#nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 25px;
     width: 700px;
-    background-color: rgb(229, 255, 0);
     padding-left: 5px;
     padding-right: 5px;
 }
 
-#container_2 {
-    background-color: rgb(11, 11, 164);
-    display: flex;
-    height: 250px;
-    justify-content: center;
-    align-items: center;
-}
 
-#sub-container {
+#download {
     height: 200px;
-    width: 500px;
-    background-color: pink;
+    width: 70%;
 }
