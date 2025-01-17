@@ -7,7 +7,7 @@ body {
 
 header {
     display: flex;
-    height: 45px;
+    height: 77px;
     justify-content: center;
     align-items: center;
 }
@@ -22,13 +22,20 @@ header {
 
     }
 
-    .s_container~#download {
-        background-color: blue;
+    #s_container_gray {
+        background-color: lightgray;
+    }
+
+    #s_container_blue {
+        background-color: rgb(23, 23, 192);
+    }
+
+    #s_container_black {
+        background-color: rgb(40, 39, 39);
     }
 
     #download {
         background-color: rgb(240, 88, 113);
-
     }
 
     .box {
@@ -47,53 +54,88 @@ header {
         background-color: green;
     }
 
+    #about {
+        background-color: rgb(228, 129, 145);
+    }
 
-
+    .a_hub {
+        background-color: rgb(34, 233, 233);
+    }
 }
 
 
 .s_container {
-    display: flex;
-    height: 250px;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 25px;
-    width: 700px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-#download {
-    height: 200px;
-    width: 50%;
-}
-
-.box {
-    width: 50%;
-    height: 200px;
-}
-
-.text_box {
-    width: 30%;
-    height: 200px;
-}
-
-
-#l_container {
     display: flex;
     height: 500px;
     justify-content: center;
     align-items: center;
 }
 
+#s_container_gray {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#s_container_blue {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#s_container_black {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 700px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#download {
+    height: 400px;
+    width: 65%;
+}
+
+.box {
+    width: 50%;
+    height: 400px;
+}
+
+.text_box {
+    width: 30%;
+    height: 400px;
+}
+
+
+#l_container {
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
 #tec_box {
-    height: 450px;
+    height: 900px;
     width: 80%;
+}
+
+#about {
+    height: 450px;
+    width: 15%;
+}
+
+.a_hub {
+    height: 450px;
+    width: 16%;
 }
