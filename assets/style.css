@@ -22,28 +22,41 @@ header {
 
     }
 
-
-
-
-    .container {
-        display: flex;
-        height: 250px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container~#download {
+    .s_container~#download {
         background-color: blue;
     }
+
+    #download {
+        background-color: rgb(240, 88, 113);
+
+    }
+
+    .box {
+        background-color: lightblue;
+    }
+
+    .text_box {
+        background-color: pink;
+    }
+
+    #l_container {
+        background-color: lightgray;
+    }
+
+    #tec_box {
+        background-color: green;
+    }
+
+
+
 }
 
-#download {
-    background-color: pink;
 
-}
-
-#cn_friends {
-    background-color: bisque;
+.s_container {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -57,8 +70,30 @@ header {
     padding-right: 5px;
 }
 
-
 #download {
     height: 200px;
-    width: 70%;
+    width: 50%;
+}
+
+.box {
+    width: 50%;
+    height: 200px;
+}
+
+.text_box {
+    width: 30%;
+    height: 200px;
+}
+
+
+#l_container {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#tec_box {
+    height: 450px;
+    width: 80%;
 }
