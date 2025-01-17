@@ -12,6 +12,10 @@ header {
     align-items: center;
 }
 
+hr {
+    margin: 0;
+}
+
 .utility {
     header {
         background-color: aqua;
@@ -61,6 +65,18 @@ header {
     .a_hub {
         background-color: rgb(34, 233, 233);
     }
+
+    .logo_button {
+        background-color: rgb(190, 80, 80);
+    }
+
+    #main_box_of_button_logo {
+        background-color: rgb(40, 39, 39);
+    }
+
+    #box_button_logo {
+        background-color: rgb(229, 255, 0);
+    }
 }
 
 
@@ -97,14 +113,14 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 45px;
-    width: 700px;
+    width: 800px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 #download {
     height: 400px;
-    width: 65%;
+    width: 60%;
 }
 
 .box {
@@ -138,4 +154,27 @@ header {
 .a_hub {
     height: 450px;
     width: 16%;
+}
+
+#main_box_of_button_logo {
+    display: flex;
+    height: 115px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#box_button_logo {
+    display: flex;
+    height: 80px;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.logo_button {
+    display: flex;
+    height: 20px;
+
 }
